@@ -1,13 +1,19 @@
 
 <h3 align="center">Hi, I'm Lucas, a applied fullstack WEB development Student</h3>
 <h3 align="center">Technitian in Computing and Student at Trybe (To be graduated in 2023)</h3>
-
+<br>
+<hr>
+<br>
 <img width="50%" align="right" alt="Github Image" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
 - 🌱 I’m currently learning ... **React.js - ContextAPI - Hooks**
 - 💬 Ask me about ... **Web Develpoment**
 - 😄 Employement ... **Open for opportunities**
 - 📫 How to reach me **lpjanuzi@gmail.com**
+
+<br>
+<hr>
+<br>
 
 <h4>Skills and Tools: </h4>
 <p align="left">
