@@ -6,7 +6,7 @@
 <br>
 <img width="50%" align="right" alt="Github Image" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
-- 🌱 I’m currently learning ... **React.js - ContextAPI - Hooks**
+- 🌱 I’m currently learning ... **Docker - SQL - Node.js**
 - 💬 Ask me about ... **Web Develpoment**
 - 😄 Employement ... **Open for opportunities**
 - 📫 How to reach me **lpjanuzi@gmail.com**
