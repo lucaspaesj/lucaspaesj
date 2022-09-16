@@ -1,5 +1,5 @@
 
-<h3 align="center">Hi, I'm Lucas, a applied fullstack WEB development Student</h3>
+<h3 align="center">Hi, I'm Lucas, an applied fullstack WEB development Student</h3>
 <h3 align="center">Technitian in Computing and Student at Trybe (To be graduated in 2023)</h3>
 <br>
 <hr>
