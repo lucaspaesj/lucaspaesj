@@ -6,9 +6,9 @@
 <br>
 <img width="50%" align="right" alt="Github Image" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
-- 🌱 I’m currently learning ... **TypeScript - POO/SOLID - MongoDB**
+- 🌱 I’m currently learning ... **Python**
 - 💬 Ask me about ... **Web Development**
-- 😄 Employement ... **Open for opportunities**
+- 😄 Employement ... **Currently working at IconCode**
 - 📫 How to reach me **lpjanuzi@gmail.com**
 
 <br>
