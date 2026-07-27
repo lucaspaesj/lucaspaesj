@@ -1,75 +1,88 @@
 # Lucas Paes Januzi
 
-**Technical Lead • Full-Stack Software Engineer**
+**Tech Lead & Software Architect** · Healthcare integrations
 
-![Profile Views](https://komarev.com/ghpvc/?username=paesjlucas&color=00d4ff&style=flat-square&label=Profile+Views)
-
----
-
-### 👋 About Me
-
-Software Engineer and **Tech Lead** passionate about transforming complex challenges into agile, scalable, and user-centered solutions.
-
-Graduated in Computer Science from **COTEMIG** and Full-Stack specialist from **Trybe**.
-
-In recent years, I have led the development of **facial and fingertip biometry SDKs**, AI-powered microservices for medical order interpretation, and advanced automations through reverse engineering — drastically reducing execution time and generating significant financial gains for clients.
-
-**Specialist in web crawlers and routine automations.** I work end-to-end (frontend, backend, and architecture) with a strong focus on performance, user experience, and technical leadership.
+![Profile Views](https://komarev.com/ghpvc/?username=lucaspaesj&color=00d4ff&style=flat-square&label=Profile+Views)
 
 ---
 
-### 💼 Professional Experience
+Half of what I build exists because the system on the other side has no API.
 
-**Technical Lead (Frontend) & Full-Stack Developer**  
-**IconCode** • Brazil  
-*Aug 2022 – Present* (3 years and 9 months)
+I work on healthcare integrations. On one side, a clinic requesting authorization for an exam. On the other, an insurance payer portal that only speaks HTML, TISS over SOAP, magnetic-stripe card tokens, patient biometrics. My job is turning that mess into clean data inside the platform a clinic uses every day.
 
-- Led the complete frontend lifecycle (UI/UX, components, testing, deployment and performance) using React.js, Next.js, AngularJS and TypeScript.
-- Designed and developed **facial and fingertip biometry SDKs** for patient identification in partner portals.
-- Architected intelligent microservices using AI to read and structure medical orders.
-- Built advanced automations through reverse engineering, significantly reducing execution time and boosting client productivity and financial results.
-- Provided team mentoring, code reviews, and strategic architectural decisions.
+That shaped how I work. I do not build elegant integrations. I build integrations that survive the portal changing its layout on a Friday night.
 
-**Legal Intern**  
-**Inocêncio de Paula - Judicial Administrator** • 2019 – 2021  
-Developed strong analytical and complex problem-solving skills (applied today in code and stakeholder communication).
-
-**IT Support Specialist**  
-**BHS, Samp & Promed** • 2017 – 2018  
-Built a solid foundation in problem-solving under pressure and customer-first mindset.
+Today I am Tech Lead and architect of the product: I sit with the client and decide on the spot what is feasible, write the requirement and the technical analysis, build it, review what the team ships, and sign off on the production deploy.
 
 ---
 
-### 🎓 Education
+### Things I have shipped
 
-- **Full-Stack Web Developer** — Trybe (2022 – 2023)
-- **Bachelor's Degree in Law** — Faculdades Milton Campos (2018 – 2021)
-- **Computer Science Technician** — COTEMIG (2015 – 2017)
-
----
-
-### 🛠️ Technical Skills
-
-| Frontend & Frameworks       | Backend & Languages      | Databases & Cloud       | Other Expertise                  |
-|-----------------------------|--------------------------|-------------------------|----------------------------------|
-| React.js • Next.js          | C# • .NET 6/7            | SQL • PostgreSQL        | **Web Crawlers & Automations**   |
-| TypeScript • JavaScript     | Node.js • AngularJS      | Azure                   | AI Microservices                 |
-| HTML • CSS • Redux          | Express.js • REST APIs   | Git • CI/CD             | Reverse Engineering              |
-
-**Additional:** Leadership • Mentoring • Scrum • Kanban • SOLID • Automated Testing
+- **Facial and fingerprint biometrics SDKs** embedded into partner portals through an iframe with a strict CSP, identifying a patient without them typing anything.
+- **Reverse-engineering automation** of manual client routines. Hours became minutes, and it showed up in their revenue.
+- **AI in the product** — microservices that read medical orders and return structured, ready-to-consume data.
+- **A browser extension published on the Chrome Web Store**, cleared through Google's single-purpose and privacy policy review.
+- **Corporate SSO with Microsoft Entra ID** and patient notifications over the WhatsApp Cloud API, with a Meta-approved template.
+- **Payer portal crawlers** in Node.js, each with its own authentication rules, layout and creative ways of breaking.
+- **The release pipeline** — Bitbucket CI/CD to dev, staging and production; containers on AWS (ECS, ECR, EC2, CloudWatch) and Azure App Service.
 
 ---
 
-### 📫 Get in Touch
+### Experience
+
+**Tech Lead & Software Architect** — IconCode · Remote
+*Apr 2026 – present*
+
+Architecture of the product and technical leadership of the team. Full cycle: client conversations with decision weight, requirements and technical analysis, hands-on building, code review across every front (front end, back end, services and crawlers), and ownership of the production release. Team guidance and technical mentoring.
+
+**Frontend & Crawler Developer** — IconCode · Remote
+*Aug 2022 – Apr 2026*
+
+Two fronts for almost four years: the platform's front end in React (UI/UX collaboration, reusable components, testing, deploy, performance) plus a legacy AngularJS codebase, and the crawlers that pull data out of payer portals. Grew into technical leadership of the front end.
+
+**IT Support** — BHS, Samp, Promed · *2017 – 2018*
+Where I learned to solve problems under pressure and listen before writing code.
+
+---
+
+### Side project
+
+**Partiu** — an insurance quote-comparison product I built end to end:
+[`partiu-corretora`](https://github.com/lucaspaesj/partiu-corretora) (React 19 + Vite + Tailwind) ·
+[`partiu-crawler`](https://github.com/lucaspaesj/partiu-crawler) (multi-quote API across partner insurers) ·
+[`partiu-admin`](https://github.com/lucaspaesj/partiu-admin) (operational cockpit: health, stats, actions)
+
+---
+
+### On AI
+
+I use it every day and I review it line by line. The hard part was never generating code, it is deciding what gets in. I am the reviewer across every front at work, and I wrote the review standard so the quality bar stays up when I am not in the room.
+
+---
+
+### Stack
+
+| Front end | Back end | Data | Cloud & infra | Domain |
+|---|---|---|---|---|
+| React · TypeScript | .NET · C# | MySQL · SQL Server | AWS (ECS, ECR, EC2, CloudWatch) | TISS · SOAP |
+| JavaScript · AngularJS | Node.js · Express | Oracle · NoSQL | Azure (Entra ID, Blob, App Service) | Patient biometrics |
+| HTML · CSS · Redux | REST APIs · SignalR | | Docker · nginx · Bitbucket Pipelines | Web crawlers · Reverse engineering |
+
+**Also:** software architecture · technical leadership · code review · requirements engineering · CI/CD · SOLID · Scrum
+
+---
+
+### Education
+
+- **Technical degree in Computing** — COTEMIG (2015 – 2017)
+- **Full-Stack Web Development** — Trybe (2022 – 2023)
+- **Law** — Faculdades Milton Campos (2018 – 2021), four years completed, enrollment on hold. Where my ease with contracts, written requirements and holding an argument in a room comes from.
+
+---
+
+### Get in touch
 
 - **LinkedIn:** [linkedin.com/in/lucas-paes-januzi](https://linkedin.com/in/lucas-paes-januzi)
-- **Phone:** +55 (31) 99100-2330
 - **Location:** Belo Horizonte, MG, Brazil
 
----
-
-*Open to new opportunities and collaborations in Full-Stack, Technical Leadership, or innovative automation projects.*
-
----
-
-Made with ❤️ and a lot of coffee.
+Open to Tech Lead, Software Architecture and Senior/Staff Engineering roles. If your problem is making two systems that hate each other talk, I have probably already done it.
